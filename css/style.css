@@ -801,9 +801,12 @@ margin-left: 0;
     visibility: hidden;
 }
 .modal-title {
+    font-style: normal;
+    font-weight: bold;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 30px;
 }
