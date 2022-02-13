@@ -431,19 +431,80 @@
                 </li>
             </ul>
         </div>
+        <div class="footer-three">
+            <h3 class="footer-name-3">
+                Подпишитесь на рассылку
+            </h3>
+            <label class="footer-three-email" for="footer-email"></label>
+                    <input type="email" 
+                        class="footer-input" 
+                        name="footer-email"
+                        required 
+                        id="footer-email"
+                        placeholder="E-mail"
+                    />
         </div>
-
+        <button type="submit" class="footer-button">Подписаться
+            <svg class="footer-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
+        </button>
+    </div>
 
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>
-                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
                 <form action="#">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                   <div class="form-firld">
+                    <label class="input-text" for="user-name">Имя</label>
+                    <input type="text" 
+                        class="form-input" 
+                        name="user-name"
+                        required
+                        minlength="2" 
+                        id="user-name"
+                    />
+                    </div>
+                <div class="form-firld">
+                    <label class="input-text" for="user-email">Почта</label>
+                    <input type="email" 
+                        class="form-input" 
+                        name="user-email"
+                        required 
+                        id="user-email"
+                    />
+                </div>
+                <div class="form-firld">
+                    <label class="input-text" for="user-tel">Телефон</label>
+                    <input type="tel" 
+                        class="form-input" 
+                        name="user-tel"
+                        required 
+                        id="user-tel"
+                    />
+                </div>
+                <div class="form-firld">
+                    <label class="input-text" for="user-text">Комментарий</label>
+                    <textarea 
+                        placeholder="Введите текст"
+                        name="user-text" 
+                        id="user-text"
+                        class="form-text"
+                    ></textarea>
+                </div>
+                <fieldset class="field">
+                    <legend></legend>
+                    <input type="checkbox"/>
+                    <label
+                    >Соглашаюсь с рассылкой и принимаю Условия договора
+                    </label>
+                </fieldset>
+                    <button type="submit">Отправить</button>
+                    
                 </form>
+            <button type="button" class="modal-close" data-modal-close>
+                
                     <svg class="modal-close-icon" width="11" height="11">
                         <use href="./images/icons.svg#icon-VectorX">
                         </use>
