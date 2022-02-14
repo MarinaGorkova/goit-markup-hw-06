@@ -876,15 +876,15 @@ margin: -1px;
     transition: 500ms;
     cursor: pointer;
 }
-.field {
+/* .field {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
     border: none;
     padding-bottom: 10px;
-}
-.field-button {
+} */
+/* .field-button {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -892,7 +892,7 @@ margin: -1px;
     border: none;
     padding: 0;
     
-}
+} */
 .checkbox-button {
     position: absolute;
     width: 200px;
@@ -926,4 +926,25 @@ margin: -1px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 500ms;
+}
+.check-text {
+    font-size: 14px;
+    color: #757575;
+    line-height: 24px;
+    display: flex;
+}
+.check-text::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+   margin-right: 8px;
+}
+.policy-check:checked + .check-text::before {
+    border: none;
+    background-image: url(../images/icon\ check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
