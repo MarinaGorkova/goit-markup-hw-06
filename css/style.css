@@ -909,6 +909,7 @@ margin: -1px;
     align-items: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    justify-content: center;
 
 }
 .form-input:focus {
