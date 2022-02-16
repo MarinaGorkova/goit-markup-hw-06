@@ -900,8 +900,8 @@ margin: -1px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: 164px; */
+    margin-right: 164px;
     margin-top: 30px;
     font-weight: bold;
     font-size: 16px;
