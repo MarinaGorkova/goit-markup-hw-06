@@ -845,7 +845,7 @@ margin: -1px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 .input-text {
     font-size: 12px;
@@ -901,7 +901,8 @@ margin: -1px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin-left: 124px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
@@ -915,7 +916,7 @@ margin: -1px;
     border-color:  #2196F3;
 }
 .form-input:hover + .input-icon {
-    fill: #2196F3;
+    fill: #282e33;
 }
 .input-wrap {
     position: relative;
@@ -932,6 +933,9 @@ margin: -1px;
     color: #757575;
     line-height: 24px;
     display: flex;
+    margin-top: 20px;
+    align-items: center;
+    
 }
 .check-text::before {
     content: "";
@@ -939,7 +943,7 @@ margin: -1px;
     height: 15px;
     border: 2px solid #000000;
     border-radius: 2px;
-   margin-right: 8px;
+   margin-right: 7px;
 }
 .form-text:hover {
     border-color:  #2196F3;
@@ -950,4 +954,8 @@ margin: -1px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.check-text-policy {
+    color: #2196F3;
+    text-decoration: underline;
 }
