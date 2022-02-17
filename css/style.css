@@ -916,7 +916,7 @@ margin: -1px;
     border-color:  #2196F3;
 }
 .form-input:hover + .input-icon {
-    fill: #282e33;
+    fill: #2196F3;
 }
 .input-wrap {
     position: relative;
