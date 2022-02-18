@@ -832,6 +832,10 @@ margin: -1px;
     align-items: center;
     justify-content: center;
 }
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+    fill: #2196F3;
+}
 .is-hidden {
     opacity: 0;
     pointer-events: none;
@@ -921,9 +925,7 @@ margin: -1px;
 .modal-close:hover + .modal-close-icon {
     fill: #2196F3;
 } */
-.modal-close-icon:hover {
-    fill: #2196F3;
-}
+
 .form-input:focus,
 .form-input:hover {
     border-color:  #2196F3;
