@@ -903,11 +903,11 @@ margin: -1px;
 .form-input:focus,
 .form-input:hover {
     border-color:  #2196F3;
+    border: 1px solid #2196F3;
 }
 .form-input:focus + .input-icon,
 .form-input:hover + .input-icon {
-    fill: #2196F3;
-    border: 1px solid #2196F3;
+    fill: #2196F3;    
 }
 /* .input.input-wrap {
     border: #2196F3;
