@@ -923,7 +923,7 @@ margin: -1px;
 } */
 .modal-close-icon:focus,
 .modal-close-icon:hover {
-    border-color: #2196F3;
+    background: #2196F3;
 }
 .form-input:focus,
 .form-input:hover {
