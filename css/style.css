@@ -910,7 +910,11 @@ margin: -1px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     justify-content: center;
+    border: none;
 
+}
+.modal-close:hover {
+    color: #2196F3;
 }
 .form-input:hover {
     border-color:  #2196F3;
