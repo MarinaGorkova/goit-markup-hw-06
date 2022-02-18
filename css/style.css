@@ -921,17 +921,12 @@ margin: -1px;
 .modal-close:hover + .modal-close-icon {
     fill: #2196F3;
 } */
-.modal-close-icon:focus,
-.modal-close-icon:hover {
-    border-color: #2196F3;
-}
-.modal-close:focus,
-.modal-close:hover {
-    background: #2196F3;
+.modal-close-icon {
+    color: #2196F3;
 }
 .form-input:focus,
 .form-input:hover {
-    background:  #2196F3;
+    border-color:  #2196F3;
 }
 .form-input:focus + .input-icon,
 .form-input:hover + .input-icon {
