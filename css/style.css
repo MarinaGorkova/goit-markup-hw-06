@@ -915,7 +915,7 @@ margin: -1px;
 }
 .modal-close:focus,
 .modal-close:hover {
-    color: #2196F3;
+    border-color: #2196F3;
 }
 .modal-close:focus + .modal-close-icon,
 .modal-close:hover + .modal-close-icon {
