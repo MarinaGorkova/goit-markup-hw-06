@@ -916,10 +916,12 @@ margin: -1px;
 .modal-close:hover {
     color: #2196F3;
 }
+.form-input:focus,
 .form-input:hover {
     border-color:  #2196F3;
 }
-.form-input:hover + .input-icon {
+.form-input:focus + .input-icon,
+.form-input:focus + .input-icon {
     fill: #2196F3;
 }
 .input-wrap {
