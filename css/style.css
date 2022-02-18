@@ -921,8 +921,8 @@ margin: -1px;
 .modal-close:hover + .modal-close-icon {
     fill: #2196F3;
 } */
-.modal-close-icon {
-    color: #2196F3;
+.modal-close-icon:hover {
+    fill: #2196F3;
 }
 .form-input:focus,
 .form-input:hover {
