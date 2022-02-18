@@ -925,6 +925,10 @@ margin: -1px;
 .modal-close-icon:hover {
     border-color: #2196F3;
 }
+.modal-close:focus,
+.modal-close:hover {
+    border-color: #2196F3;
+}
 .form-input:focus,
 .form-input:hover {
     border-color:  #2196F3;
